@@ -1,0 +1,22 @@
+.header{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 100px;
+padding-right: 100px;
+margin-bottom: 10px;
+
+}
+
+.imagelogo{
+
+    width: 100px;
+
+}
+
+.options{
+
+font-size: 35px;
+
+}

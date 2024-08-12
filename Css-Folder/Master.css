@@ -47,7 +47,7 @@ font-size: 35px;
     text-align: center;
 }
 
-.container{
+.features .container{
 
     padding-top: 60px;
     display: grid;
@@ -97,4 +97,25 @@ font-size: 35px;
 
 color: #777;
 
+}
+
+.services .container{
+
+    text-align: center;
+}
+
+.headofervices .hServices{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: #dbdbdb;
+
+}
+
+.headofervices .span{
+
+position: relative;
+bottom: 90px;
+font-size: 20px;
+color:#6d6d6d
 }

@@ -119,3 +119,40 @@ bottom: 90px;
 font-size: 20px;
 color:#6d6d6d
 }
+
+.services .bodyofservices{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 100px;
+
+}
+
+.fontofGraphicDesign{
+
+    display: inline;
+    margin-right: 30px;
+    color:#10cab7;
+    
+}
+
+.fontofUI-UX{
+
+    display: inline;
+    margin-right: 30px;
+    color:#10cab7;
+}
+
+.fontofWeb-Design{
+
+    display: inline;
+    margin-right: 30px;
+    color:#10cab7;
+}
+
+.fontofWeb-Development{
+
+    display: inline;
+    margin-right: 30px;
+    color:#10cab7;
+}

@@ -1,3 +1,20 @@
+.special-heading {
+    color: #ebeced;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin: 0;
+  }
+
+  .special-heading + p {
+    margin: -30px 0 0;
+    font-size: 20px;
+    text-align: center;
+    color: #797979;
+  }
+
+
 .header{
 
 display: flex;
@@ -95,64 +112,26 @@ font-size: 35px;
 
 .container .p{
 
-color: #777;
+    color: #777;
 
 }
 
-.services .container{
+.servictitle .h1{
 
-    text-align: center;
-}
-
-.headofervices .hServices{
-
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 100px;
-    color: #dbdbdb;
+  font-size: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: #ebeced;
+  letter-spacing: -2px;
 
 }
 
-.headofervices .span{
+.servictitle .p{
 
-position: relative;
-bottom: 90px;
-font-size: 20px;
-color:#6d6d6d
-}
+  color: #797979;
+  text-align: center;
+  position: relative;
+  bottom: 95px;
+  font-size: 20px;
 
-.services .bodyofservices{
-
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-gap: 100px;
-
-}
-
-.fontofGraphicDesign{
-
-    display: inline;
-    margin-right: 30px;
-    color:#10cab7;
-    
-}
-
-.fontofUI-UX{
-
-    display: inline;
-    margin-right: 30px;
-    color:#10cab7;
-}
-
-.fontofWeb-Design{
-
-    display: inline;
-    margin-right: 30px;
-    color:#10cab7;
-}
-
-.fontofWeb-Development{
-
-    display: inline;
-    margin-right: 30px;
-    color:#10cab7;
 }

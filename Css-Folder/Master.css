@@ -1,20 +1,4 @@
-.special-heading {
-    color: #ebeced;
-    font-size: 100px;
-    text-align: center;
-    font-weight: 800;
-    letter-spacing: -3px;
-    margin: 0;
-  }
-
-  .special-heading + p {
-    margin: -30px 0 0;
-    font-size: 20px;
-    text-align: center;
-    color: #797979;
-  }
-
-
+/* start Header */
 .header{
 
 display: flex;
@@ -34,7 +18,7 @@ margin-bottom: 10px;
 
 .options{
 
-font-size: 35px;
+  font-size: 35px;
 
 }
 
@@ -55,7 +39,9 @@ font-size: 35px;
     font-weight: bold;
     
 }
+/* end Header */
 
+/* start features */
 .features{
 
     background-color: #eee;
@@ -115,8 +101,10 @@ font-size: 35px;
     color: #777;
 
 }
+/* End features */
 
-.servictitle .h1{
+/* start Services */
+.servicetitle .h1{
 
   font-size: 100px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -126,7 +114,7 @@ font-size: 35px;
 
 }
 
-.servictitle .p{
+.servicetitle .p{
 
   color: #797979;
   text-align: center;
@@ -134,4 +122,175 @@ font-size: 35px;
   bottom: 95px;
   font-size: 20px;
 
+
 }
+
+.servicebody{
+  display: flex;
+  align-items: center;
+}
+
+.servicebody .ContainerOfTheWebDesignAndGraphicDesign{
+
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+
+@media(max-width:852px){
+  .servicebody .ContainerOfTheWebDesignAndGraphicDesign{
+
+    display: grid;
+    text-align: center;
+
+  }
+}
+
+.ContainerOfTheWebDesignAndGraphicDesign .GraphicDesignfont{
+
+  color:#10cab7;
+  font-size: 15px;
+  display: inline;
+  margin-right:15px;
+  text-align: center;
+}
+
+.GraphicDesign .span{
+
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.GraphicDesign .p{
+
+  padding-top: 5px;
+  padding-left: 48px;
+  margin-right: 20px;
+
+}
+
+.ContainerOfTheWebDesignAndGraphicDesign .WebDesignfont{
+
+  color:#10cab7;
+  font-size: 15px;
+  display: inline;
+  margin-right:15px;
+  text-align: center;
+}
+
+.WebDesign .span{
+
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.WebDesign .p{
+
+  padding-top: 5px;
+  padding-left: 48px;
+  margin-right: 20px;
+
+}
+
+.servicebody .ContainerOfTheUI-UXAndWebDevelopment{
+
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+
+@media(max-width:852px){
+  .servicebody .ContainerOfTheUI-UXAndWebDevelopment{
+
+    display: grid;
+    text-align: center;
+
+
+  }
+}
+
+.ContainerOfTheUI-UXAndWebDevelopment .UI-UXfont{
+
+  color:#10cab7;
+  font-size: 15px;
+  display: inline;
+  margin-right:15px;
+  text-align: center;
+}
+
+.UI-UX .span{
+
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.UI-UX .p{
+
+  padding-top: 5px;
+  padding-left: 48px;
+
+}
+
+
+.ContainerOfTheUI-UXAndWebDevelopment .WebDevelopmentfont{
+
+  color:#10cab7;
+  font-size: 15px;
+  display: inline;
+  margin-right:15px;
+  text-align: center;
+}
+
+.WebDevelopment .span{
+
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.WebDevelopment .p{
+
+  padding-top: 5px;
+  padding-left: 48px;
+
+}
+
+ .image::before {
+  content: "";
+  background-color: #2c4755;
+  width: 100px;
+  height: 650px;
+  top: 1100px;
+  position: absolute;
+  right: 60px;
+  z-index: -1;
+}
+.imageofservice{
+
+  margin-right: 100px;
+}
+
+@media(max-width:852px){
+  .servicebody .p{
+
+    display: grid;
+    text-align: center;
+    margin-bottom: 60px;
+    
+  }
+}
+
+@media(max-width:1115px){
+  .servicebody .serviceimage{
+
+    display: none;
+
+  }
+}
+
+/* End Services */

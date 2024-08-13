@@ -294,3 +294,34 @@ margin-bottom: 10px;
 }
 
 /* End Services */
+
+/* start Portfolio */
+
+.Portfolio .container{
+
+  background-color: #eee;
+
+}
+
+.Portfoliotitle .h1{
+
+  font-size: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: #ebeced;
+  letter-spacing: -2px;
+
+}
+
+.Portfoliotitle .p{
+
+  color: #797979;
+  text-align: center;
+  position: relative;
+  bottom: 95px;
+  font-size: 20px;
+
+}
+
+
+/* End Portfolio */

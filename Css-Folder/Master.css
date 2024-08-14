@@ -122,7 +122,6 @@ margin-bottom: 10px;
   bottom: 95px;
   font-size: 20px;
 
-
 }
 
 .servicebody{
@@ -300,6 +299,8 @@ margin-bottom: 10px;
 .Portfolio .container{
 
   background-color: #eee;
+  padding-top: 20px;
+  margin-top: 80px;
 
 }
 

@@ -335,7 +335,7 @@ margin-bottom: 10px;
 .Portfoliobody .Portfolios{
 
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 
 }
 
@@ -407,29 +407,31 @@ margin-bottom: 10px;
 
 .about .aboutbody{
 
+  display: grid;
+  grid-template-columns: auto 1fr; 
+  align-items: center;
+  column-gap: 200px;
   margin-right: 100px;
   margin-left: 100px;
   position: relative;
 
 }
 
-.part-of-image .image-of-about{
+@media(max-width:1050px){
+  .about .aboutbody{
 
-  width: 350px;
-  position: relative;
+    display: grid;
+    align-items: center;
+    column-gap: 200px;
 
+  }
 }
 
-.image-of-project::after{
+.part-of-image .image-of-about{
 
-  content: "";
-  background-color: #f6f6f6;
-  width: 70px;
-  height: 120px;
-  right:0px;
-  left:0px;
-  position: absolute;
-  z-index: -1;
+  width: 250px;
+  position: relative;
+
 }
 
 .part-of-image::before{
@@ -438,9 +440,9 @@ margin-bottom: 10px;
   position: absolute; 
   background-color: #f6f6f6;
   width: 100px;
-  height: 580px;
+  height: 430px;
   top:-30px ;
-  right: 1050px;
+  right: 1060px;
   z-index: -1;
   
 }
@@ -451,9 +453,9 @@ margin-bottom: 10px;
   position: absolute; 
   background-color: #10cab7;
   width: 100px;
-  height: 400px;
+  height: 280px;
   top:-30px ;
-  right: 750px;
+  right: 850px;
   z-index: -1;
 }
 
@@ -461,11 +463,59 @@ margin-bottom: 10px;
 
   position: absolute; 
   background-color: #10cab7;
-  width: 240px;
+  width: 220px;
   height: 90px;
-  top:370px ;
-  right: 610px;
+  top: 250px ;
+  right: 730px;
   z-index: -1;
+}
+
+@media(max-width:1115px){
+  .part-of-image .row-of-image{
+
+background-color: white;
+
+  }
+}
+
+@media(max-width:1115px){
+  .part-of-image::after{
+
+    content: "";
+    display: none;
+
+  }
+}
+
+@media(max-width:1115px){
+  .part-of-image::before{
+
+    content: "";
+    display: none;
+
+  }
+}
+
+.words-of-about .span1{
+
+position: relative;
+bottom: 60px;
+font-size: 20px;
+font-weight: bold;
+
+}
+
+.words-of-about hr{
+
+  border-color: #10cab7;
+
+}
+.words-of-about .span2{
+
+position: relative;
+top: 20px;
+font-size: 20px;
+
 }
 
 /* End Portfolio */

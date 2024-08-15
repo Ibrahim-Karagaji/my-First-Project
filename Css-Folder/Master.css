@@ -381,6 +381,10 @@ margin-bottom: 10px;
 
 /* start about */
 
+.about .container{
+  position: relative;
+}
+
 .aboutliotitle h1{
 
   font-size: 100px;
@@ -399,6 +403,69 @@ margin-bottom: 10px;
   bottom: 95px;
   font-size: 20px;
 
+}
+
+.about .aboutbody{
+
+  margin-right: 100px;
+  margin-left: 100px;
+  position: relative;
+
+}
+
+.part-of-image .image-of-about{
+
+  width: 350px;
+  position: relative;
+
+}
+
+.image-of-project::after{
+
+  content: "";
+  background-color: #f6f6f6;
+  width: 70px;
+  height: 120px;
+  right:0px;
+  left:0px;
+  position: absolute;
+  z-index: -1;
+}
+
+.part-of-image::before{
+
+  content: "";
+  position: absolute; 
+  background-color: #f6f6f6;
+  width: 100px;
+  height: 580px;
+  top:-30px ;
+  right: 1050px;
+  z-index: -1;
+  
+}
+
+.part-of-image::after{
+
+  content: "";
+  position: absolute; 
+  background-color: #10cab7;
+  width: 100px;
+  height: 400px;
+  top:-30px ;
+  right: 750px;
+  z-index: -1;
+}
+
+.part-of-image .row-of-image{
+
+  position: absolute; 
+  background-color: #10cab7;
+  width: 240px;
+  height: 90px;
+  top:370px ;
+  right: 610px;
+  z-index: -1;
 }
 
 /* End Portfolio */
